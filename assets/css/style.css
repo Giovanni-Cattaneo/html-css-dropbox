@@ -23,6 +23,10 @@ h2{
     font-size: 2rem;
     padding-bottom: 2rem;
 }
+
+h3{
+    font-size: 1.5rem;
+}
 /* #endregion common */
 
 
@@ -61,6 +65,7 @@ h2{
 main{
     width: 1920px;
     margin: auto;
+    height: 3000px;
 }
 
 
@@ -97,11 +102,12 @@ main{
 
 /* #endregion jumbotron */
 
+
+/* #region business*/
 .business{
     max-width: 50%;
     margin: auto;
     padding-top: 10rem;
-    height: 2000px;
 }
 
 .round-box{
@@ -128,6 +134,7 @@ main{
     border: 0.5px solid grey;
     padding: 1rem;
     row-gap: 2rem;
+    box-shadow: 2px 2px 4px #888888;
 }
 
 ul{
@@ -156,5 +163,39 @@ hr{
     color: white;
 }
 
+/* #endregion business */
 
+
+.team{
+    display: flex;
+    max-width: 50%;
+    margin: auto;
+    justify-content: center;
+    border: 0.5px solid grey;
+    margin-top: 3rem;
+}
+
+.enterprise{
+    display: flex;
+    max-width: 50%;
+    margin: auto;
+    border: 0.5px solid grey;
+    border-top: transparent;
+    position: relative;
+    padding: 1rem;
+    box-shadow: 2px 2px 4px #888888;
+}
+
+.enterprise-text{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    row-gap: 1rem;
+}
+
+.contact-button{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
 /* #endregion main */
