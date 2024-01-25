@@ -27,6 +27,21 @@ h2{
 h3{
     font-size: 1.5rem;
 }
+
+#site-header, .top-logo, .jumbo-img-text, .aside-text-jumbotron, .container-card, .card, .li, .team, .enterprise, .enterprise-text.partner, .partner, .coworker-aside, .smaller-card, .business-feature, .k-500, .bring-dropbox, .faq, .faq-text, .footer-container, .box, .language{
+    display: flex;
+} 
+
+.business, .team, .enterprise, .partner, .faq, .business-feature, .k-500{
+    max-width: 50%;
+    margin: auto;
+}
+
+.intestation, .footer-container, .language{
+    max-width: 60%;
+    margin: auto;
+}
+
 /* #endregion common */
 
 
@@ -37,13 +52,11 @@ h3{
 }
 
 #site-header{
-    display: flex;
     justify-content: space-between;
-    height: 50px;
+    padding: 0.7rem;
 }
 
 .top-logo{
-    display: flex;
     align-items: center;
 }
 
@@ -59,8 +72,6 @@ h3{
 
 /* #endregion header */
 
-
-
 /* #region main */
 main{
     width: 1920px;
@@ -73,23 +84,12 @@ main{
     background-color: #b4d0e6;
 }
 
-.intestation{
-    max-width: 60%;
-    margin: auto;
-}
-
-
 .img-jumbo{
     width: 80%;
     margin-bottom: -5rem;
 }
 
-.jumbo-img-text{
-    display: flex;
-}
-
 .aside-text-jumbotron{
-    display: flex;
     flex-direction: column;
     row-gap: 2.5rem;
 }
@@ -103,18 +103,14 @@ main{
 
 /* #region business*/
 .business{
-    max-width: 50%;
-    margin: auto;
     padding-top: 10rem;
 }
 
 .round-box{
     margin-left: 1rem;
-    
 }
 
 .container-card{
-    display: flex;
     margin-top: 3rem;
     column-gap: 2rem;
 
@@ -126,7 +122,6 @@ main{
 }
 
 .card{
-    display: flex;
     flex-direction: column;
     width: calc(100% / 3);
     border: 0.5px solid grey;
@@ -144,7 +139,6 @@ ul{
 }
 
 li{
-    display: flex;
     margin: 0 0 1.5rem 0;
 }
 
@@ -165,9 +159,6 @@ hr{
 
 
 .team{
-    display: flex;
-    max-width: 50%;
-    margin: auto;
     justify-content: center;
     border: 0.5px solid grey;
     margin-top: 3rem;
@@ -175,9 +166,6 @@ hr{
 }
 
 .enterprise{
-    display: flex;
-    max-width: 50%;
-    margin: auto;
     border: 0.5px solid grey;
     border-top: transparent;
     position: relative;
@@ -186,7 +174,6 @@ hr{
 }
 
 .enterprise-text{
-    display: flex;
     flex-direction: column;
     width: 60%;
     row-gap: 1rem;
@@ -199,9 +186,6 @@ hr{
 }
 
 .partner{
-    display: flex;
-    margin:auto;
-    max-width: 50%;
     margin-top: 5rem;
     column-gap: 3rem;
 }
@@ -211,7 +195,6 @@ hr{
 }
 
 .coworker-aside{
-    display: flex;
     flex-direction: column;
     width: 40%;
     row-gap: 1.5rem;
@@ -227,9 +210,6 @@ hr{
 /* #region smaller-card */
 
 .business-feature{
-    display: flex;
-    margin:auto;
-    max-width: 50%;
     margin-top: 5rem;
     flex-wrap: wrap;
 }
@@ -239,20 +219,16 @@ hr{
 }
 
 .smaller-card{
-    display: flex;
     flex-direction: column;
     width: calc(100% / 3);
     row-gap: 2rem;
-    padding: 0 1.5rem;
+    padding: 0 1.8rem;
 }
 
 /* #endregion smaller card */
 
 .k-500{
-    display: flex;
     flex-direction: column;
-    margin:auto;
-    max-width: 50%;
     margin-top: 5rem;
 }
 
@@ -337,7 +313,6 @@ hr{
 /* #endregion design and logo */
 
 .bring-dropbox{
-    display: flex;
     background-color: #b4d0e6;
     margin:auto;
     max-width: 100%;
@@ -365,10 +340,7 @@ hr{
 
 
 .faq{
-    display: flex;
     flex-direction: column;
-    margin:auto;
-    max-width: 50%;
     margin-top: 5rem;
     justify-content: center;
     row-gap: 1.5rem;
@@ -381,7 +353,6 @@ hr{
 }
 
 .faq-text{
-    display: flex;
     justify-content: space-between;
     padding: 0 1rem 0 0;
 }
@@ -394,9 +365,6 @@ hr{
  }
 
  .footer-container{
-    display: flex;
-    max-width: 60%;
-    margin: auto;
     column-gap: 2rem;
     justify-content: space-between;
     align-items: center;
@@ -404,7 +372,6 @@ hr{
 
  .box{
     color: white;
-    display: flex;
     flex-direction: column;
     row-gap: 1.8rem;
  }
@@ -415,8 +382,6 @@ hr{
 
 .language{
     color: white;
-    display: flex;
-    max-width: 60%;
     margin: auto;
     margin-top: 5rem;
     flex-direction: column;
