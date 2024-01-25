@@ -10,7 +10,7 @@
 button{
     color: white;
     background-color: #0260fe;
-    padding: 0.3rem 0.8rem;
+    padding: 0.3rem 0.6rem;
     border-style: none;
 }
 
@@ -21,6 +21,7 @@ h1{
 
 h2{
     font-size: 2rem;
+    padding-bottom: 2rem;
 }
 /* #endregion common */
 
@@ -92,7 +93,6 @@ main{
 
 .fa-arrow-down{
     font-size: 3.5rem;
-    align-self: center;
 }
 
 /* #endregion jumbotron */
@@ -101,9 +101,50 @@ main{
     max-width: 50%;
     margin: auto;
     padding-top: 10rem;
-    height: 1000px;
+    height: 2000px;
 }
 
-.round
+.round-box{
+    margin-left: 1rem;
+    
+}
+
+.container-card{
+    display: flex;
+    margin-top: 3rem;
+
+}
+
+.single-avatar{
+    padding: 0.5rem 5rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3);
+    border: 0.5px solid grey;
+    padding: 1rem;
+    row-gap: 2rem;
+}
+
+ul{
+    list-style: none;
+}
+
+.fa-user-ninja, .fa-folder, .fa-share-nodes, .fa-check{
+    margin-right: 10px;
+}
+
+li{
+    display: flex;
+}
+
+
+.fa-check{
+    color: #6c99ec;
+    padding-top: 0.25rem;
+}
+
 
 /* #endregion main */
