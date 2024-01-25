@@ -259,5 +259,60 @@ hr{
 
 
 
+/* #region design and logo */
+
+.design-container{
+    display: flex;
+    margin:auto;
+    max-width: 100%;
+    margin-top: 5rem;
+}
+
+.design-left, .design-right, .design-center{
+    display: flex;
+    flex-wrap: wrap;
+    width: 33.3%;
+    flex-basis: 50%;
+    height: 600px;
+}
+
+.design-center{
+    flex-direction: column;
+}
+
+.design-top-left, .design-top-right, .design-bottom-left, .design-bottom-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    padding: 1rem;
+}
+
+.design-top-left{
+    background-color: #a2d39b;
+    border: 1rem solid #d1eacd;
+}
+
+.design-top-right{
+    background-color: #62082b;
+}
+
+.design-bottom-left{
+    background-color: #0193ce;
+}
+
+.design-bottom-right{
+    background-color: #ff1c1d;
+}
+
+
+
+.uni-logo{
+    width: 50%;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(283deg) brightness(104%) contrast(104%);
+}
+/* #endregion design and logo */
+
 
 /* #endregion main */
