@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-header{
+    width: 1920px;
+    margin: auto;
+}
+
+#site-header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.top-logo{
+    display: flex;
+    align-items: center;
+}
+
+.top-left{
+    column-gap: 1.5rem;
+    padding-left: 1rem;
+}
+
+.top-right{
+  column-gap: 1.5rem;
+  padding-right: 1rem;
+}
+
+button{
+    color: white;
+    background-color: #0260fe;
+    padding: 0.3rem 0.8rem;
+    border-style: none;
+}
+
