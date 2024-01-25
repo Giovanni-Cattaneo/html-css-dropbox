@@ -1,9 +1,22 @@
+/* #region common */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;;
 }
 
+button{
+    color: white;
+    background-color: #0260fe;
+    padding: 0.3rem 0.8rem;
+    border-style: none;
+}
+/* #endregion common */
+
+
+/* #region header */
 .container-header{
     width: 1920px;
     margin: auto;
@@ -30,10 +43,57 @@
   padding-right: 1rem;
 }
 
-button{
-    color: white;
-    background-color: #0260fe;
-    padding: 0.3rem 0.8rem;
-    border-style: none;
+/* #endregion header */
+
+
+
+/* #region main */
+main{
+    width: 1920px;
+    margin: auto;
 }
 
+
+/* #region jumbotron */
+.jumbotron{
+    background-color: #b4d0e6;
+}
+
+.intestation{
+    max-width: 60%;
+    margin: auto;
+
+}
+
+h1{
+    font-size: 4rem;
+    padding: 3rem 0;
+    
+}
+
+.img-jumbo{
+    width: 80%;
+    margin-bottom: -5rem;
+}
+
+.jumbo-img-text{
+    display: flex;
+}
+
+.aside-text-jumbotron{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+}
+
+.fa-arrow-down{
+    font-size: 3.5rem;
+    align-self: center;
+}
+
+/* #endregion jumbotron */
+
+
+
+
+/* #endregion main */
