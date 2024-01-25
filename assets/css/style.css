@@ -28,7 +28,7 @@ h3{
     font-size: 1.5rem;
 }
 
-#site-header, .top-logo, .jumbo-img-text, .aside-text-jumbotron, .container-card, .card, .li, .team, .enterprise, .enterprise-text.partner, .partner, .coworker-aside, .smaller-card, .business-feature, .k-500, .bring-dropbox, .faq, .faq-text, .footer-container, .box, .language{
+#site-header, .top-logo, .jumbo-img-text, .aside-text-jumbotron, .container-card, .card, .li, .team, .enterprise, .enterprise-text.partner, .partner, .coworker-aside, .smaller-card, .business-feature, .k-500, .bring-dropbox, .faq, .faq-text, .footer-container, .box, .language, .design-left, .design-right, .design-center, .design-container, .design-top-left, .design-top-right, .design-bottom-left, .design-bottom-right{
     display: flex;
 } 
 
@@ -237,7 +237,6 @@ hr{
 /* #region design and logo */
 
 .design-container{
-    display: flex;
     margin:auto;
     max-width: 100%;
     margin-top: 5rem;
@@ -246,9 +245,13 @@ hr{
 .design-left, .design-right, .design-center{
     display: flex;
     flex-wrap: wrap;
-    width: 33.3%;
+    width: 33%;
     flex-basis: 50%;
     height: 600px;
+}
+
+.design-left{
+    margin-left: 1rem;
 }
 
 .design-center{
@@ -261,7 +264,6 @@ hr{
 
 .design-top-left, .design-top-right, .design-bottom-left, .design-bottom-right{
     width: 50%;
-    display: flex;
     justify-content: center;
     align-items: center;
     background-color: red;
@@ -303,8 +305,6 @@ hr{
 .design-right>div:nth-child(4){
     background-color: #ffd930;
 }
-
-
 
 .uni-logo{
     width: 50%;
@@ -375,10 +375,6 @@ hr{
     flex-direction: column;
     row-gap: 1.8rem;
  }
-
-.bottom-hr{
-    color: white;
-}
 
 .language{
     color: white;
