@@ -391,8 +391,7 @@ hr{
 #site_footer{
     display: flex;
     background-color: black;
-    height: 1000px;
-
+    padding: 4rem 0;
  }
 
  .footer-container{
@@ -400,15 +399,15 @@ hr{
     max-width: 60%;
     margin: auto;
     column-gap: 2rem;
-    padding: 5rem 0;
+    justify-content: space-between;
+    align-items: center;
  }
 
  .box{
     color: white;
-    justify-content: space-evenly;
     display: flex;
     flex-direction: column;
-    row-gap: 1rem;
+    row-gap: 1.8rem;
  }
 
 .bottom-hr{
