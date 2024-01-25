@@ -218,11 +218,11 @@ hr{
     row-gap: 1.5rem;
 }
 
-#partner-button{
+.partner-button{
     color: black;
     background-color: white;
     border: 0.5px solid black;
-    padding: 0.3rem 0.1rem;
+    padding: 0.3rem 0.8rem;
 }
 
 /* #region smaller-card */
@@ -337,7 +337,53 @@ hr{
 }
 /* #endregion design and logo */
 
+.bring-dropbox{
+    display: flex;
+    background-color: #b4d0e6;
+    margin:auto;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+}
+
+.heading-bring-dropbox{
+    color: #5f0b29;
+    width: 25%;
+}
+
+#heading-bring-dropbox{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+#lighter-button{
+    color: black;
+    background-color: white;
+    border: none;
+    padding: 0.3rem 0.8rem;
+}
 
 
+.faq{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    max-width: 50%;
+    margin-top: 5rem;
+    justify-content: center;
+    row-gap: 1.5rem;
+}
+
+.large-hr{
+    max-width: 100%;
+    width: 100%;
+}
+
+.faq-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem 0 0;
+}
 
 /* #endregion main */
