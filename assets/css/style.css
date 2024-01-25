@@ -112,11 +112,13 @@ main{
 .container-card{
     display: flex;
     margin-top: 3rem;
+    column-gap: 2rem;
 
 }
 
 .single-avatar{
     padding: 0.5rem 5rem;
+    border-bottom: 0.5px solid grey;
 }
 
 .card{
@@ -132,18 +134,26 @@ ul{
     list-style: none;
 }
 
-.fa-user-ninja, .fa-folder, .fa-share-nodes, .fa-check{
+.fa-user-ninja, .fa-folder, .fa-share-nodes, .fa-check, .fa-people-group, .fa-building{
     margin-right: 10px;
 }
 
 li{
     display: flex;
+    margin: 0 0 1.5rem 0;
 }
 
+hr{
+    max-width: 20%;
+}
 
 .fa-check{
     color: #6c99ec;
     padding-top: 0.25rem;
+}
+
+#month{
+    color: white;
 }
 
 
