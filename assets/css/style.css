@@ -295,6 +295,9 @@ hr{
 
 .design-top-left{
     background-color: #a2d39b;
+}
+
+.design-left>div:nth-child(1){
     border: 1rem solid #d1eacd;
 }
 
@@ -309,6 +312,23 @@ hr{
 .design-bottom-right{
     background-color: #ff1c1d;
 }
+
+.design-right>div:nth-child(1){
+    background-color: #d50020;
+}
+
+.design-right>div:nth-child(2){
+    background-color: #b4d0e6;
+}
+
+.design-right>div:nth-child(3){
+    background-color: #0d2481;
+}
+
+.design-right>div:nth-child(4){
+    background-color: #ffd930;
+}
+
 
 
 .uni-logo{
