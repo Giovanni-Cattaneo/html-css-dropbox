@@ -233,7 +233,7 @@ hr{
 
 .k-500{
     flex-direction: column;
-    margin-top: 5rem;
+    margin-top: 5rem ;
 }
 
 
@@ -325,11 +325,11 @@ hr{
 
 .heading-bring-dropbox{
     color: #5f0b29;
-    width: 25%;
+    width: 30%;
 }
 
-#heading-bring-dropbox{
-    font-size: 2rem;
+.heading-bring-dropbox > h2{
+    font-size: 3rem;
     font-weight: 900;
 }
 
