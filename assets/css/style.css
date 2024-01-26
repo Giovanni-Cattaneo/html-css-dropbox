@@ -352,13 +352,20 @@ hr{
     padding: 0.3rem 0.8rem;
 }
 
-
 .faq{
     flex-direction: column;
     margin-top: 5rem;
     justify-content: center;
     row-gap: 1.5rem;
     margin-bottom: 10rem;
+}
+
+.faq a{
+    text-decoration: none;
+}
+
+.faq a:hover{
+    text-decoration: underline;
 }
 
 .large-hr{
