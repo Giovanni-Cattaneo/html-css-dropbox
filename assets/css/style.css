@@ -11,6 +11,10 @@ header a{
     text-decoration: none;
 }
 
+a:hover{
+    text-decoration: un;
+
+}
 
 button{
     color: white;
@@ -376,10 +380,6 @@ hr{
     justify-content: space-between;
     align-items: center;
  }
-    & footer a{
-        color: inherit;
-     }
-    
     & .box{
         color: white;
         flex-direction: column;
@@ -395,3 +395,11 @@ hr{
     }
  }
 
+.box a{
+    color: white;
+    text-decoration: none;
+}
+
+.box a:hover{
+        text-decoration: underline;
+    }
