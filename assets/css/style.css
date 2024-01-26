@@ -34,9 +34,10 @@ h3{
 
 #site-header, .top-logo, .jumbo-img-text, .aside-text-jumbotron, .container-card, 
 .card, .li, .team, .enterprise, .enterprise-text.partner, .partner, 
-.coworker-aside, .smaller-card, .business-feature, .k-500, .bring-dropbox, .faq, 
-.faq-text, .footer-container, .box, .language, .design-left, .design-right, .design-center, 
-.design-container, .design-top-left, .design-top-right, .design-bottom-left, .design-bottom-right, li{
+.coworker-aside, .smaller-card, .business-feature, .k-500, .bring-dropbox, 
+.faq, .faq-text, .footer-container, .box, .language, .design-left, 
+.design-right, .design-center, .design-container, .design-top-left, 
+.design-top-right, .design-bottom-left, .design-bottom-right, li, .card-intestation{
     display: flex;
 } 
 
@@ -57,26 +58,26 @@ h3{
 .container-header{
     width: 1920px;
     margin: auto;
-}
 
-#site-header{
+    & #site-header{
     justify-content: space-between;
     padding: 0.7rem;
+    & .top-logo{
+        align-items: center;
+    }
+    
+    .top-left{
+        column-gap: 1.5rem;
+        padding-left: 1rem;
+    }
+    
+    .top-right{
+      column-gap: 1.5rem;
+      padding-right: 1rem;
+    }
+}
 }
 
-.top-logo{
-    align-items: center;
-}
-
-.top-left{
-    column-gap: 1.5rem;
-    padding-left: 1rem;
-}
-
-.top-right{
-  column-gap: 1.5rem;
-  padding-right: 1rem;
-}
 
 /* #endregion header */
 
@@ -121,7 +122,6 @@ main{
 .container-card{
     margin-top: 3rem;
     column-gap: 2rem;
-
 }
 
 .single-avatar{
@@ -138,12 +138,18 @@ main{
     box-shadow: 2px 2px 4px #888888;
 }
 
+.card-intestation{
+    flex-direction: column;
+    row-gap: 1rem;
+    padding-bottom: 1rem;
+}
+
 ul{
     list-style: none;
 }
 
 .fa-user-ninja, .fa-folder, .fa-share-nodes, .fa-check, .fa-people-group, .fa-building{
-    margin-right: 10px;
+    margin-right: 0.7rem;
 }
 
 li{
@@ -160,7 +166,7 @@ hr{
 }
 
 #month{
-    color: white;
+    color: transparent;
 }
 
 /* #endregion business */
