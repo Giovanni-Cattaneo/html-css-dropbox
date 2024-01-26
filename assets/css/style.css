@@ -11,6 +11,7 @@ header a{
     text-decoration: none;
 }
 
+
 button{
     color: white;
     background-color: #0260fe;
@@ -369,25 +370,28 @@ hr{
 #site_footer{
     background-color: black;
     padding: 4rem 0;
- }
 
- .footer-container{
+    & .footer-container{
     column-gap: 2rem;
     justify-content: space-between;
     align-items: center;
  }
-
- .box{
-    color: white;
-    flex-direction: column;
-    row-gap: 1.8rem;
+    & footer a{
+        color: inherit;
+     }
+    
+    & .box{
+        color: white;
+        flex-direction: column;
+        row-gap: 1.8rem;
+     }
+    
+    & .language{
+        color: white;
+        margin: auto;
+        margin-top: 5rem;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
  }
-
-.language{
-    color: white;
-    margin: auto;
-    margin-top: 5rem;
-    flex-direction: column;
-    row-gap: 1rem;
-}
 
