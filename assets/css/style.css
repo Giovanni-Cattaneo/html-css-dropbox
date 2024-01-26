@@ -262,6 +262,10 @@ hr{
     height: 600px;
 }
 
+.design-left{
+    margin-left: 1rem;
+}
+
 .design-center{
     flex-direction: column;
     background-color: #f5f5f5;
