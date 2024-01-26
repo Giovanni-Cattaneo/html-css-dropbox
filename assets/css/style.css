@@ -127,7 +127,7 @@ main{
 
 .card{
     flex-direction: column;
-    width: calc(100% / 3);
+    width: calc(100% / 3.5);
     border: 0.5px solid grey;
     padding: 1rem;
     row-gap: 2rem;
@@ -236,8 +236,6 @@ hr{
     margin-top: 5rem ;
 }
 
-
-
 /* #region design and logo */
 
 .design-container{
@@ -253,8 +251,6 @@ hr{
     flex-basis: 50%;
     height: 600px;
 }
-
-
 
 .design-center{
     flex-direction: column;
