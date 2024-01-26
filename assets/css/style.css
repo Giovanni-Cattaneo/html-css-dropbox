@@ -127,10 +127,6 @@ main{
     column-gap: 2rem;
 }
 
-#low-button{
-    margin-top: 1.35rem
-}
-
 .single-avatar{
     padding: 0.5rem 5rem;
     border-bottom: 0.5px solid grey;
@@ -138,7 +134,7 @@ main{
 
 .card{
     flex-direction: column;
-    width: calc(100% / 3);
+    width: calc(100% / 2.5);
     border: 0.5px solid grey;
     padding: 1rem;
     row-gap: 2rem;
@@ -147,16 +143,16 @@ main{
     & .card-intestation{
     flex-direction: column;
     row-gap: 1rem;
-    padding-bottom: 1rem;
 }
 }
 
 ul{
     list-style: none;
-
-    & li{
-    margin: 0 0 1.5rem 0;
 }
+
+li{
+    display: flex;
+    margin: 0 0 1.5rem 0;
 }
 
 .fa-user-ninja, .fa-folder, .fa-share-nodes, .fa-check, .fa-people-group, .fa-building{
@@ -258,6 +254,7 @@ hr{
     margin:auto;
     max-width: 100%;
     margin-top: 5rem;
+    height: 35rem;
 }
 
 .design-left, .design-right, .design-center{
