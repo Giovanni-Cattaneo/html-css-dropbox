@@ -127,6 +127,10 @@ main{
     column-gap: 2rem;
 }
 
+.container-card button:first-child{
+    margin-top: 1.35rem
+}
+
 .single-avatar{
     padding: 0.5rem 5rem;
     border-bottom: 0.5px solid grey;
