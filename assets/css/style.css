@@ -37,14 +37,9 @@ h3{
     font-size: 1.5rem;
 }
 
-#site-header, .top-logo, .jumbo-img-text, .aside-text-jumbotron, .container-card, 
-.card, .li, .team, .enterprise, .enterprise-text.partner, .partner, 
-.coworker-aside, .smaller-card, .business-feature, .k-500, .bring-dropbox, 
-.faq, .faq-text, .footer-container, .box, .language, .design-left, 
-.design-right, .design-center, .design-container, .design-top-left, 
-.design-top-right, .design-bottom-left, .design-bottom-right, li, .card-intestation{
+.d-flex{
     display: flex;
-} 
+}
 
 .business, .team, .enterprise, .partner, .faq, .business-feature, .k-500{
     max-width: 50%;
@@ -64,9 +59,10 @@ h3{
     width: 1920px;
     margin: auto;
 
-    & #site-header{
+    & .site-header{
     justify-content: space-between;
     padding: 0.7rem;
+    
     & .top-logo{
         align-items: center;
     }
@@ -136,7 +132,7 @@ main{
 
 .card{
     flex-direction: column;
-    width: calc(100% / 3.5);
+    width: calc(100% / 3);
     border: 0.5px solid grey;
     padding: 1rem;
     row-gap: 2rem;
@@ -263,7 +259,6 @@ hr{
     flex-wrap: wrap;
     width: 33%;
     flex-basis: 50%;
-    height: 600px;
 }
 
 .design-center{
@@ -320,6 +315,7 @@ hr{
 
 .uni-logo{
     width: 50%;
+    object-fit: contain;
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(283deg) brightness(104%) contrast(104%);
 }
 /* #endregion design and logo */
