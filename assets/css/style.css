@@ -7,7 +7,7 @@
     font-family: 'Open Sans', sans-serif;;
 }
 
-a{
+header a{
     text-decoration: none;
 }
 
@@ -146,14 +146,14 @@ main{
 
 ul{
     list-style: none;
+
+    & li{
+    margin: 0 0 1.5rem 0;
+}
 }
 
 .fa-user-ninja, .fa-folder, .fa-share-nodes, .fa-check, .fa-people-group, .fa-building{
     margin-right: 0.7rem;
-}
-
-li{
-    margin: 0 0 1.5rem 0;
 }
 
 hr{
@@ -170,7 +170,6 @@ hr{
 }
 
 /* #endregion business */
-
 
 .team{
     justify-content: center;
