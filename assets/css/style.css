@@ -32,7 +32,7 @@ h3{
     font-size: 1.5rem;
 }
 
-#site-header, .top-logo, .jumbo-img-text, .aside-text-jumbotron, .container-card, .card, .li, .team, .enterprise, .enterprise-text.partner, .partner, .coworker-aside, .smaller-card, .business-feature, .k-500, .bring-dropbox, .faq, .faq-text, .footer-container, .box, .language, .design-left, .design-right, .design-center, .design-container, .design-top-left, .design-top-right, .design-bottom-left, .design-bottom-right{
+#site-header, .top-logo, .jumbo-img-text, .aside-text-jumbotron, .container-card, .card, .li, .team, .enterprise, .enterprise-text.partner, .partner, .coworker-aside, .smaller-card, .business-feature, .k-500, .bring-dropbox, .faq, .faq-text, .footer-container, .box, .language, .design-left, .design-right, .design-center, .design-container, .design-top-left, .design-top-right, .design-bottom-left, .design-bottom-right, li{
     display: flex;
 } 
 
