@@ -259,7 +259,6 @@ hr{
 }
 
 #design-left, #design-right, #design-center{
-    display: flex;
     flex-wrap: wrap;
     width: 33%;
     flex-basis: 50%;
