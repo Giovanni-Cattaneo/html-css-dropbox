@@ -207,7 +207,8 @@ hr{
     column-gap: 3rem;
 }
 
-#coworker-img{
+
+.coworker img{
     width: 100%;
 }
 
