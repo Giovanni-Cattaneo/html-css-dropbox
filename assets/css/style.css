@@ -273,7 +273,8 @@ hr{
     row-gap: 2rem;
 }
 
-.design-top-left, .design-top-right, .design-bottom-left, .design-bottom-right{
+
+#design-left > div, #design-right > div{
     width: 50%;
     justify-content: center;
     align-items: center;
@@ -281,23 +282,20 @@ hr{
     padding: 1rem;
 }
 
-.design-top-left{
+#design-left>div:nth-child(1){
     background-color: #a2d39b;
-}
-
- #design-left>div:nth-child(1){
     border: 1rem solid #d1eacd;
 }
 
-.design-top-right{
+#design-left>div:nth-child(2){
     background-color: #62082b;
 }
 
-.design-bottom-left{
+#design-left>div:nth-child(3){
     background-color: #0193ce;
 }
 
-.design-bottom-right{
+#design-left>div:nth-child(4){
     background-color: #ff1c1d;
 }
 
