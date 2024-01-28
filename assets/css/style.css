@@ -44,7 +44,7 @@ h3{
     display: flex;
 }
 
-.business, #team, #enterprise, .partner, #destination-faq, .business-feature, .k-500{
+.business, #team, #enterprise, .partner, #destination-faq, .business-feature, #k-500{
     max-width: 50%;
     margin: auto;
 }
@@ -244,7 +244,7 @@ hr{
 
 /* #endregion smaller card */
 
-.k-500{
+#k-500{
     flex-direction: column;
     margin-top: 5rem ;
 }
@@ -324,7 +324,7 @@ hr{
 }
 /* #endregion design and logo */
 
-.bring-dropbox{
+#bring-dropbox{
     background-color: #b4d0e6;
     margin:auto;
     max-width: 100%;
