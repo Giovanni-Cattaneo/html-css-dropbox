@@ -404,20 +404,25 @@ hr{
     padding: 0 1rem 0 0;
 }
 
-.faq-answer{
-    max-width: 20%;
-    background-color: #b4d0e6;
-    border-radius: 1rem;
-    padding: 0.4rem;
-    margin: auto;
-    position: absolute;
-    top: 3rem;
-    right: -13rem;
+.faq-text .fa-chevron-up{
     display: none;
 }
 
-.faq-text:hover ~ .faq-answer {
+.faq-text:hover .fa-chevron-up{
     display: block;
+}
+
+
+.faq-answer{
+    display: none;
+}
+
+.faq-text:hover + .faq-answer {
+    display: block;
+}
+
+.faq-text:hover .fa-chevron-down{
+    display: none;
 }
 
 /* #endregion main */
