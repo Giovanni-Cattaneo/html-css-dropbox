@@ -58,16 +58,17 @@ h3{
 
 
 /* #region header */
-#container-header{
-    width: 1920px;
-    margin: auto;
-    position: relative;
-
-    & #site-header{
-    justify-content: space-between;
+#site-header{
     padding: 0.7rem;
     height: 3.5rem;
-    
+
+    & #container-header{
+        justify-content: space-between;
+        max-width: 1920px;
+        width: 100%;
+        margin: auto;
+        position: relative;
+
     & .top-logo{
         align-items: center;
     }
@@ -106,7 +107,7 @@ h3{
     border-bottom-right-radius: 1rem;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     border-top: 3px solid black;
-    top: 3.4rem;
+    top: 2.55rem;
 }
 
 
@@ -114,8 +115,9 @@ h3{
 /* #endregion header */
 
 /* #region main */
-main{
-    width: 1920px;
+#site-main{
+    width: 100%;
+    max-width: 1920px;
     margin: auto;
 }
 
