@@ -61,6 +61,7 @@ h3{
 #container-header{
     width: 1920px;
     margin: auto;
+    position: relative;
 
     & #site-header{
     justify-content: space-between;
@@ -80,6 +81,15 @@ h3{
       padding-right: 1rem;
     }
 }
+}
+
+.top-logo > div:hover{
+    background-color: red;
+}
+
+#site-header ul{
+    display: none;
+    list-style: none;
 }
 
 /* #endregion header */
