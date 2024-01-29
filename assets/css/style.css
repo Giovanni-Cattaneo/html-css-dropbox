@@ -66,6 +66,7 @@ h3{
     & #site-header{
     justify-content: space-between;
     padding: 0.7rem;
+    height: 3.5rem;
     
     & .top-logo{
         align-items: center;
@@ -83,13 +84,31 @@ h3{
 }
 }
 
-.top-logo > div:hover{
-    background-color: red;
+#function:hover ul{
+    display: flex;
 }
 
 #site-header ul{
-    display: none;
+    position: relative;
     list-style: none;
+    max-width: 5rem;
+    margin: auto;
+    width: 100%;
+}
+
+#function ul{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    top: 3.4rem;
+    left: 10.6rem;
+    z-index: 1;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
 }
 
 /* #endregion header */
