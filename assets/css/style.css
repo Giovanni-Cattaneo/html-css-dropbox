@@ -96,6 +96,7 @@ h3{
     width: 100%;
 }
 
+
 #function ul{
     display: none;
     flex-direction: column;
@@ -104,11 +105,10 @@ h3{
     position: absolute;
     top: 3.4rem;
     left: 10.6rem;
-    z-index: 1;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-
+    border-top: 3px solid black;
 }
 
 /* #endregion header */
