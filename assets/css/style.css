@@ -248,7 +248,7 @@ hr{
     border-top: transparent;
     position: relative;
     padding: 1rem;
-    box-shadow: 2px 2px 4px #888888;
+    box-shadow: 2px 2px 4px rgba(136, 136, 136, 0.5);
 }
 
 .enterprise-text{
