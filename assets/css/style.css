@@ -200,7 +200,7 @@ h3{
     border: 0.5px solid var(--dropbox-dark);
     padding: 1rem;
     row-gap: 2rem;
-    box-shadow: 2px 2px 4px #888888;
+    box-shadow: 2px 2px 4px rgba(236, 236, 236, 0.5);
    
     & .card-intestation{
     flex-direction: column;
